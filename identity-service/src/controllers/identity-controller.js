@@ -35,7 +35,7 @@ const registerUser = async (req, res) => {
       accessToken,
       refreshToken,
     });
-  } catch (error) {
+  } catch (e) {
     logger.error("Registration error occured", e);
     res.status(500).json({
       success: false,

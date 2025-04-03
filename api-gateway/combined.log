@@ -1,0 +1,10 @@
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-03T05:41:19.044Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-03T05:41:19.050Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2025-04-03T05:42:33.839Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-03T05:42:33.840Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-03T05:42:33.861Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2025-04-03T05:42:53.351Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-03T05:42:53.353Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-03T05:42:53.365Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-03T05:43:11.456Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-03T05:43:11.465Z"}
