@@ -1,3 +1,4 @@
+const RefreshToken = require("../models/RefreshToken");
 const User = require("../models/User");
 const generateTokens = require("../utils/generateTokens");
 const logger = require("../utils/logger");
@@ -94,4 +95,88 @@ const loginUser = async (req, res) => {
   }
 };
 
-module.exports = { registerUser, loginUser };
+const refreshTokenController = async (req, res) => {
+  logger.info("Refresh Token  hit...");
+  try {
+    const { refreshToken } = req.body;
+    if (!refreshToken) {
+      logger.warn("Refresh token missing");
+      res.status(500).json({
+        success: false,
+        message: "Internal Server Error",
+      });
+    }
+
+    const storedToken = await RefreshToken.findOne({ token: refreshToken });
+
+    if (!storedToken || storedToken.expiresAt < new Date()) {
+      logger.warn("Invalid or expired refresh token");
+      return res.status(401).json({
+        success: false,
+        message: "Invalid or expired refresh token",
+      });
+    }
+
+    const user = await User.findById(storedToken.user);
+
+    if (!user) {
+      logger.error("User not found");
+      res.status(500).json({
+        success: false,
+        message: "User not found",
+      });
+    }
+
+    const { accessToken: newAccessToken, refreshToken: newRefreshToken } =
+      await generateTokens(user);
+
+    //delete old refresh Token
+
+    await RefreshToken.deleteOne({ _id: storedToken._id });
+
+    res.json({
+      accessToken: newAccessToken,
+      refreshToken: newRefreshToken,
+    });
+  } catch (error) {
+    logger.error("refresh token error: ", error);
+    res.status(500).json({
+      success: false,
+      message: "Internal Server Error",
+    });
+  }
+};
+
+const logoutUser = async (req, res) => {
+  logger.info("logout endpoint hit...");
+
+  try {
+    const { refreshToken } = req.body;
+    if (!refreshToken) {
+      logger.warn("Refresh Token missing");
+      return res.status(400).json({
+        success: false,
+        message: "Refresh token missing",
+      });
+    }
+    await RefreshToken.deleteOne({ token: refreshToken });
+    logger.info("Refresh Token deleted for logout");
+    res.json({
+      success: true,
+      message: "Logout successfully!",
+    });
+  } catch (error) {
+    logger.error("logout error", error);
+    res.status(500).json({
+      success: false,
+      message: "Inṭernal Server Error",
+    });
+  }
+};
+
+module.exports = {
+  registerUser,
+  loginUser,
+  refreshTokenController,
+  logoutUser,
+};
