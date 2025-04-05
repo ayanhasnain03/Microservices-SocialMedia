@@ -8,3 +8,17 @@
 {"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-03T05:42:53.365Z"}
 {"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-03T05:43:11.456Z"}
 {"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-03T05:43:11.465Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-03T05:43:24.553Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-03T05:43:24.558Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2025-04-03T05:43:47.474Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-03T05:43:47.477Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"identity-service","timestamp":"2025-04-03T05:43:47.847Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2025-04-03T05:43:59.892Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-03T05:43:59.894Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"identity-service","timestamp":"2025-04-03T05:44:00.103Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2025-04-03T05:44:10.707Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-03T05:44:10.709Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"identity-service","timestamp":"2025-04-03T05:44:10.888Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2025-04-03T05:44:36.107Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-03T05:44:36.108Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"identity-service","timestamp":"2025-04-03T05:44:36.593Z"}
