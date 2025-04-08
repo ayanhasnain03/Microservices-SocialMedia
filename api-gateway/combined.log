@@ -27,3 +27,268 @@
 {"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-05T07:30:05.386Z"}
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-05T07:30:05.387Z"}
 {"level":"info","message":"Response received from Identity service: 201","service":"identity-service","timestamp":"2025-04-05T07:30:05.766Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-05T07:50:35.154Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-05T07:50:35.155Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"identity-service","timestamp":"2025-04-05T07:50:35.505Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-token","service":"identity-service","timestamp":"2025-04-05T07:51:24.332Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-05T07:51:24.334Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-05T07:51:24.638Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T06:26:53.340Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T06:26:53.348Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T06:37:17.846Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T06:37:17.862Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:39:17.001Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"api-gateway","timestamp":"2025-04-08T06:39:17.016Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-08T06:39:17.006Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T06:40:52.667Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-08T06:40:52.669Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"identity-service","timestamp":"2025-04-08T06:40:52.798Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T06:41:27.222Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:41:27.227Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"identity-service","timestamp":"2025-04-08T06:41:27.621Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:42:13.111Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:42:13.131Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:42:13.113Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:42:27.068Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:42:27.072Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:42:27.069Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T06:43:24.014Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:43:24.018Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"identity-service","timestamp":"2025-04-08T06:43:24.379Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:43:38.583Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:43:38.591Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:43:38.585Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T06:44:13.320Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T06:44:13.329Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:47:34.002Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:47:34.013Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:47:34.003Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:47:36.178Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:47:36.186Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:47:36.181Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:47:49.438Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:47:49.446Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:47:49.439Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T06:48:02.769Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:48:02.770Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"identity-service","timestamp":"2025-04-08T06:48:03.112Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:48:15.660Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:48:15.669Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:48:15.662Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:48:48.623Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:48:48.628Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:48:48.624Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:49:03.998Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:49:04.002Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:49:03.999Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T06:49:08.333Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:49:08.334Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"identity-service","timestamp":"2025-04-08T06:49:08.689Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T06:51:13.708Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:51:13.709Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T06:51:14.251Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:51:30.511Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:51:30.515Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:51:30.512Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:51:40.254Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:51:40.259Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:51:40.255Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T06:52:55.335Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T06:52:55.348Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T06:54:41.981Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T06:54:41.985Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:56:00.650Z"}
+{"ip":"::1","level":"warn","message":"Invalid token!","route":"/v1/posts/create-post","service":"api-gateway","timestamp":"2025-04-08T06:56:00.674Z","tokenSnippet":"eyJhbGciOi..."}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:56:00.653Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T06:56:05.456Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:56:05.457Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T06:56:05.789Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:56:16.870Z"}
+{"ip":"::1","level":"warn","message":"Invalid token!","route":"/v1/posts/create-post","service":"api-gateway","timestamp":"2025-04-08T06:56:16.882Z","tokenSnippet":"eyJhbGciOi..."}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:56:16.873Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T06:56:23.025Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:56:23.029Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T06:56:23.407Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:56:34.205Z"}
+{"ip":"::1","level":"warn","message":"Invalid token!","route":"/v1/posts/create-post","service":"api-gateway","timestamp":"2025-04-08T06:56:34.210Z","tokenSnippet":"eyJhbGciOi..."}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:56:34.206Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T06:57:09.202Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T06:57:09.209Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:57:17.616Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:57:17.640Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:57:17.619Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T06:57:35.735Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T06:57:35.740Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T06:57:48.635Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T06:57:48.653Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:57:50.275Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:57:50.302Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:57:50.278Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:57:52.347Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:57:52.351Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:57:52.348Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T06:58:03.658Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T06:58:03.685Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:58:05.841Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:58:05.873Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:58:05.844Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:58:07.789Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:58:07.798Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:58:07.792Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T06:58:10.926Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:58:10.927Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T06:58:11.424Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:58:21.543Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:58:21.548Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:58:21.544Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T06:58:49.399Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T06:58:49.413Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T06:59:29.382Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T06:59:29.389Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T06:59:37.327Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T06:59:37.349Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T06:59:37.330Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:00:06.176Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:00:06.216Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:00:08.692Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:00:08.709Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:00:08.694Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:00:43.310Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:00:43.316Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:00:45.231Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:00:45.243Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:00:45.232Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:02:00.536Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:02:00.549Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:02:00.538Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:02:01.925Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:02:01.929Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:02:01.926Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:02:03.250Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:02:03.256Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:02:03.251Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:02:21.574Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:02:21.579Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T07:02:28.055Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:02:28.058Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T07:02:28.450Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:02:45.158Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:02:45.196Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:02:45.161Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:03:36.561Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:03:36.571Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:03:41.171Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:03:41.206Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:03:41.173Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:03:52.440Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:03:52.446Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:03:58.426Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:03:58.445Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:04:53.806Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:04:53.854Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:04:53.810Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T07:04:57.236Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:04:57.237Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T07:04:57.544Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:05:06.793Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:05:06.801Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:05:06.794Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:06:36.475Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:06:36.481Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:06:36.477Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:06:36.482Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:06:36.483Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:06:36.487Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:06:45.891Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:06:45.894Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:06:45.892Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:06:49.660Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:06:49.672Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:06:49.663Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:07:24.132Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:07:24.142Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:07:24.134Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T07:07:31.260Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:07:31.261Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T07:07:32.055Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:07:50.276Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:07:50.283Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:07:50.277Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:09:21.874Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:09:21.879Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:09:36.675Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:09:36.724Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:09:36.678Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T07:11:41.098Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:11:41.102Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T07:11:41.552Z"}
+{"level":"info","message":"Received GET request to /favicon.ico","service":"identity-service","timestamp":"2025-04-08T07:12:01.299Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-08T07:12:01.300Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:12:17.886Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:12:17.896Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:12:17.889Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:12:37.539Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:12:37.544Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:12:37.540Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:14:02.739Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:14:02.749Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:14:02.741Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:14:04.771Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:14:04.777Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:14:04.772Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T07:14:06.878Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:14:06.879Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T07:14:07.255Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:14:21.461Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:14:21.477Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:14:21.463Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:15:28.937Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:15:28.943Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T07:15:46.642Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:15:46.644Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T07:15:46.988Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T07:17:09.688Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:17:09.691Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T07:17:10.049Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:17:27.354Z"}
+{"0":"B","1":"e","10":"h","100":"b","101":"m","102":"F","103":"t","104":"Z","105":"S","106":"I","107":"6","108":"I","109":"k","11":"b","110":"F","111":"5","112":"Y","113":"W","114":"4","115":"g","116":"S","117":"G","118":"F","119":"z","12":"G","120":"b","121":"m","122":"F","123":"p","124":"b","125":"i","126":"I","127":"s","128":"I","129":"m","13":"c","130":"l","131":"h","132":"d","133":"C","134":"I","135":"6","136":"M","137":"T","138":"c","139":"0","14":"i","140":"N","141":"D","142":"A","143":"5","144":"N","145":"j","146":"Y","147":"y","148":"O","149":"S","15":"O","150":"w","151":"i","152":"Z","153":"X","154":"h","155":"w","156":"I","157":"j","158":"o","159":"x","16":"i","160":"N","161":"z","162":"Q","163":"0","164":"M","165":"T","166":"A","167":"w","168":"M","169":"j","17":"J","170":"I","171":"5","172":"f","173":"Q","174":".","175":"D","176":"T","177":"M","178":"P","179":"t","18":"I","180":"D","181":"u","182":"o","183":"J","184":"t","185":"o","186":"9","187":"e","188":"D","189":"e","19":"U","190":"X","191":"c","192":"V","193":"T","194":"B","195":"V","196":"j","197":"W","198":"s","199":"t","2":"a","20":"z","200":"w","201":"Q","202":"e","203":"y","204":"H","205":"a","206":"w","207":"w","208":"S","209":"N","21":"I","210":"a","211":"E","212":"s","213":"T","214":"X","215":"C","216":"p","217":"0","22":"1","23":"N","24":"i","25":"I","26":"s","27":"I","28":"n","29":"R","3":"r","30":"5","31":"c","32":"C","33":"I","34":"6","35":"I","36":"k","37":"p","38":"X","39":"V","4":"e","40":"C","41":"J","42":"9","43":".","44":"e","45":"y","46":"J","47":"1","48":"c","49":"2","5":"r","50":"V","51":"y","52":"S","53":"W","54":"Q","55":"i","56":"O","57":"i","58":"I","59":"2","6":" ","60":"N","61":"2","62":"V","63":"l","64":"M","65":"T","66":"c","67":"y","68":"N","69":"m","7":"e","70":"V","71":"k","72":"Y","73":"j","74":"l","75":"m","76":"Z","77":"D","78":"B","79":"k","8":"y","80":"Y","81":"W","82":"N","83":"l","84":"Y","85":"z","86":"U","87":"w","88":"M","89":"D","9":"J","90":"E","91":"i","92":"L","93":"C","94":"J","95":"1","96":"c","97":"2","98":"V","99":"y","level":"info","message":"Authorization Header:","service":"api-gateway","timestamp":"2025-04-08T07:17:27.357Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:17:27.355Z"}
+{"error":"invalid signature","level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:17:27.371Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:18:24.836Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:18:24.843Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:18:27.918Z"}
+{"error":"invalid signature","level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:18:27.943Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:18:27.920Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:18:32.833Z"}
+{"error":"invalid signature","level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:18:32.844Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:18:32.836Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:18:39.418Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:18:39.425Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:18:41.356Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:18:41.373Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:18:41.357Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:19:26.724Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:19:26.729Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:19:51.537Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:19:51.542Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:20:00.667Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:20:00.681Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:20:00.669Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T07:20:03.735Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:20:03.738Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T07:20:04.087Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:20:18.992Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:20:19.001Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:20:18.994Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:21:48.847Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:21:48.855Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:21:48.849Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T07:21:54.853Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:21:54.854Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T07:21:55.192Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T07:22:27.585Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:22:27.587Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T07:22:27.913Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:22:37.675Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:22:37.686Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:22:37.677Z"}

@@ -80,11 +80,10 @@ const loginUser = async (req, res) => {
 
     const { accessToken, refreshToken } = await generateTokens(user);
 
-    res.status(201).json({
-      success: true,
-      message: `login successfully!`,
+    res.json({
       accessToken,
       refreshToken,
+      userId: user._id,
     });
   } catch (e) {
     logger.error("Login error occured", e);

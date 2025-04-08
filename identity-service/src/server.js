@@ -109,7 +109,7 @@ process.on("uncaughtException", (error) => {
 process.on("SIGINT", async () => {
   logger.info("Shutting down gracefully...");
   await mongoose.connection.close();
-  await redisClient.quit();
+  // await redisClient.quit();
   server.close(() => {
     logger.info("Server closed.");
     process.exit(0);

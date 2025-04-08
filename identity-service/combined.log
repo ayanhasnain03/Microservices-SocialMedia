@@ -112,3 +112,94 @@
 {"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-05T07:49:00.937Z"}
 {"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-04-05T07:49:31.175Z"}
 {"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-05T07:49:32.470Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-04-05T07:50:16.035Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-05T07:50:17.071Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-05T07:50:35.185Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-05T07:50:35.186Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-05T07:50:35.236Z"}
+{"level":"info","message":"Received POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-04-05T07:51:24.340Z"}
+{"level":"info","message":"Request body: {\n  \"refreshToken\": \"0804a1fefac2adcc2d5d39adecf9e21112ba1edc76db3fb3544e71a99f5dd0d68d32d1f03b3b3931\"\n}","service":"identity-service","timestamp":"2025-04-05T07:51:24.342Z"}
+{"level":"info","message":"Refresh Token  hit...","service":"identity-service","timestamp":"2025-04-05T07:51:24.392Z"}
+{"level":"info","message":"Shutting down gracefully...","service":"identity-service","timestamp":"2025-04-05T07:59:38.542Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-04-08T06:29:31.231Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-08T06:29:32.815Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T06:40:52.703Z"}
+{"level":"info","message":"Request body: {}","service":"identity-service","timestamp":"2025-04-08T06:40:52.705Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T06:40:52.766Z"}
+{"0":"\"","1":"e","10":" ","11":"r","12":"e","13":"q","14":"u","15":"i","16":"r","17":"e","18":"d","2":"m","3":"a","4":"i","5":"l","6":"\"","7":" ","8":"i","9":"s","level":"warn","message":"validation error","service":"identity-service","timestamp":"2025-04-08T06:40:52.777Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T06:41:27.247Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T06:41:27.251Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T06:41:27.312Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T06:43:24.039Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T06:43:24.047Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T06:43:24.109Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T06:48:02.782Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T06:48:02.782Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T06:48:02.838Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T06:49:08.342Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T06:49:08.343Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T06:49:08.400Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-04-08T06:51:10.656Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-08T06:51:12.205Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T06:51:13.776Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T06:51:13.778Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T06:51:13.843Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T06:56:05.473Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T06:56:05.475Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T06:56:05.525Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T06:56:23.034Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T06:56:23.038Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T06:56:23.095Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-04-08T06:57:03.013Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-08T06:57:04.186Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T06:58:10.976Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T06:58:10.978Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T06:58:11.045Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T07:02:28.109Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T07:02:28.112Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T07:02:28.172Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T07:04:57.241Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T07:04:57.242Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T07:04:57.300Z"}
+{"code":"ECONNRESET","errno":-4077,"level":"error","message":"Redis Client Error: read ECONNRESET","service":"identity-service","stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)","syscall":"read","timestamp":"2025-04-08T07:06:30.552Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","service":"identity-service","stack":"Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)","syscall":"getaddrinfo","timestamp":"2025-04-08T07:06:30.766Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","service":"identity-service","stack":"Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)","syscall":"getaddrinfo","timestamp":"2025-04-08T07:06:30.915Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","service":"identity-service","stack":"Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)","syscall":"getaddrinfo","timestamp":"2025-04-08T07:06:31.079Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","service":"identity-service","stack":"Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)","syscall":"getaddrinfo","timestamp":"2025-04-08T07:06:31.290Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","service":"identity-service","stack":"Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)","syscall":"getaddrinfo","timestamp":"2025-04-08T07:06:31.579Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","service":"identity-service","stack":"Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)","syscall":"getaddrinfo","timestamp":"2025-04-08T07:06:31.896Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","service":"identity-service","stack":"Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)","syscall":"getaddrinfo","timestamp":"2025-04-08T07:06:32.259Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","service":"identity-service","stack":"Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)","syscall":"getaddrinfo","timestamp":"2025-04-08T07:06:32.670Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","service":"identity-service","stack":"Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)","syscall":"getaddrinfo","timestamp":"2025-04-08T07:06:33.124Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","service":"identity-service","stack":"Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)","syscall":"getaddrinfo","timestamp":"2025-04-08T07:06:33.633Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","service":"identity-service","stack":"Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)","syscall":"getaddrinfo","timestamp":"2025-04-08T07:06:34.204Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","service":"identity-service","stack":"Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)","syscall":"getaddrinfo","timestamp":"2025-04-08T07:06:34.816Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","level":"error","message":"Redis Client Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com","service":"identity-service","stack":"Error: getaddrinfo ENOTFOUND redis-15577.crce179.ap-south-1-1.ec2.redns.redis-cloud.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)","syscall":"getaddrinfo","timestamp":"2025-04-08T07:06:35.565Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T07:07:31.263Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T07:07:31.264Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T07:07:31.317Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-04-08T07:11:35.132Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-08T07:11:36.215Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T07:11:41.181Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T07:11:41.182Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T07:11:41.240Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-04-08T07:12:35.420Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-08T07:12:37.154Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T07:14:06.927Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T07:14:06.928Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T07:14:06.982Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T07:15:46.688Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T07:15:46.690Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T07:15:46.745Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T07:17:09.712Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T07:17:09.726Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T07:17:09.787Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T07:20:03.776Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T07:20:03.784Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T07:20:03.837Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T07:21:54.869Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T07:21:54.872Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T07:21:54.924Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T07:22:27.597Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T07:22:27.603Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T07:22:27.655Z"}
