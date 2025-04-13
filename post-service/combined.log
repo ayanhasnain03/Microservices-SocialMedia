@@ -53,3 +53,360 @@
 {"level":"info","message":"📩 POST /api/posts/create-post","service":"post-services","timestamp":"2025-04-08T07:25:42.499Z"}
 {"level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:25:42.501Z"}
 {"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:26:34.658Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:26:36.097Z"}
+{"level":"info","message":"📩 POST /api/posts/create-post","service":"post-services","timestamp":"2025-04-08T07:26:39.354Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:26:39.357Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:27:42.393Z"}
+{"level":"info","message":"📩 POST /api/posts/create-post","service":"post-services","timestamp":"2025-04-08T07:27:44.324Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:27:44.326Z"}
+{"level":"error","message":"Error creating post validateCreatePost is not defined","service":"post-services","stack":"ReferenceError: validateCreatePost is not defined\n    at createPost (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\post-service\\src\\controllers\\post-controller.js:6:23)\n    at Layer.handleRequest (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\post-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\post-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\post-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\post-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\post-service\\node_modules\\router\\index.js:291:5)\n    at authenticateRequest (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\post-service\\src\\middleware\\authMiddleware.js:15:3)","timestamp":"2025-04-08T07:27:44.328Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:27:44.481Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:28:14.281Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:28:15.413Z"}
+{"level":"info","message":"📩 POST /api/posts/create-post","service":"post-services","timestamp":"2025-04-08T07:28:17.545Z"}
+{"level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:28:17.547Z"}
+{"0":"\"","1":"c","10":"i","11":"s","12":" ","13":"r","14":"e","15":"q","16":"u","17":"i","18":"r","19":"e","2":"o","20":"d","3":"n","4":"t","5":"e","6":"n","7":"t","8":"\"","9":" ","level":"warn","message":"Validation error","service":"post-services","timestamp":"2025-04-08T07:28:17.565Z"}
+{"level":"info","message":"📩 POST /api/posts/create-post","service":"post-services","timestamp":"2025-04-08T07:28:21.861Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:28:21.862Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:32:57.815Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:32:59.457Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:39:03.409Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:39:04.858Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:39:39.504Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:39:40.791Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:44:11.131Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:44:12.419Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:44:57.801Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:45:00.971Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:45:51.901Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:45:53.346Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:47:04.049Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:47:05.213Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:48:10.740Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:48:12.231Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:48:37.370Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:48:38.495Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:49:19.104Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:49:20.345Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:50:02.515Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:50:03.736Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:50:22.133Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:50:23.241Z"}
+{"level":"info","message":"📩 POST /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:50:39.803Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:50:39.807Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:50:44.934Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:50:44.935Z"}
+{"level":"error","message":"Error creating post Cannot read properties of undefined (reading 'setex')","service":"post-services","stack":"TypeError: Cannot read properties of undefined (reading 'setex')\n    at getAllPosts (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\post-service\\src\\controllers\\post-controller.js:58:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-08T07:50:45.117Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:51:40.094Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:51:41.488Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:51:43.883Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:51:43.884Z"}
+{"level":"error","message":"Error fetching all posts req.redisClient.setEx is not a function","service":"post-services","stack":"TypeError: req.redisClient.setEx is not a function\n    at getAllPosts (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\post-service\\src\\controllers\\post-controller.js:66:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-04-08T07:51:44.102Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:53:04.816Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:53:06.107Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:53:06.293Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:53:06.294Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:53:12.430Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:53:12.433Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:53:13.529Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:53:13.532Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:53:14.812Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:53:14.813Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:53:15.616Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:53:15.619Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:53:16.474Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:53:16.475Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:53:17.588Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:53:17.590Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:53:19.090Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:53:19.091Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:53:51.862Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:53:51.865Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:53:53.335Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:53:53.337Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:53:54.369Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:53:54.370Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:53:55.222Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:53:55.223Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T07:54:37.989Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T07:54:39.424Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:54:41.421Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:54:41.422Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:54:42.466Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:54:42.467Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:54:43.838Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:54:43.839Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:54:45.232Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:54:45.233Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T07:54:46.708Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T07:54:46.711Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:07:49.190Z"}
+{"level":"info","message":"✅ Connected to Redis","service":"post-services","timestamp":"2025-04-08T08:07:49.655Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T08:07:50.778Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:07:52.541Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:07:52.543Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:07:56.303Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:07:56.304Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:07:58.017Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:07:58.020Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:07:59.217Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:07:59.218Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:08:00.241Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:08:00.242Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:08:01.587Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:08:01.589Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:08:04.316Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:08:04.319Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:08:07.409Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:08:07.412Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:08:08.831Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:08:08.831Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:08:38.899Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:08:38.901Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:08:40.180Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:08:40.180Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:08:41.081Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:08:41.082Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:09:45.662Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:09:45.663Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:09:47.162Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:09:47.163Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:09:48.460Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:09:48.461Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:09:56.366Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:09:56.366Z"}
+{"level":"info","message":"🚀 Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:12:41.315Z"}
+{"level":"info","message":"✅ Connected to Redis","service":"post-services","timestamp":"2025-04-08T08:12:41.735Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-services","timestamp":"2025-04-08T08:12:42.569Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:12:43.301Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:12:43.303Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:12:44.870Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:12:44.873Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:12:46.395Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:12:46.398Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:12:48.834Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:12:48.835Z"}
+{"level":"info","message":"📩 GET /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:14:23.348Z"}
+{"content":"Hello Iam first content","level":"info","message":"📦 Request body:","service":"post-services","timestamp":"2025-04-08T08:14:23.349Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:16:07.592Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:16:08.866Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:16:13.008Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:16:13.936Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:16:20.130Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:16:20.132Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:16:22.625Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:16:22.628Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:16:24.760Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:16:24.762Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:16:25.828Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:16:25.832Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:16:27.044Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:16:27.046Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:16:27.776Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:16:27.778Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:16:28.892Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:16:28.893Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:16:30.048Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:16:30.051Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:18:44.386Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:18:44.387Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:18:45.598Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:18:45.599Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:18:47.035Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:18:47.035Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:18:49.874Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:18:49.875Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:20:50.796Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:20:52.014Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:20:52.099Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:20:52.100Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:20:55.581Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:20:55.586Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:20:57.330Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:20:57.330Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:21:07.396Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:21:07.399Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:21:13.265Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:21:13.267Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:21:14.388Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:21:14.396Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:21:16.048Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:21:16.051Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:23:37.103Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:23:38.627Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:23:57.359Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:23:58.154Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:23:58.400Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:23:58.402Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:23:59.659Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:23:59.660Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:24:00.926Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:24:00.927Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:24:02.197Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:24:02.201Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:24:03.172Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:24:03.173Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:24:04.899Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:24:04.900Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:24:11.914Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:24:12.709Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:24:16.504Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:24:16.507Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:24:21.879Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:24:21.881Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:24:25.925Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:24:25.927Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:24:26.951Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:24:26.952Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:24:28.294Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:24:28.296Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:24:58.095Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:24:59.401Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:24:59.404Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:24:59.447Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:01.026Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:01.029Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:02.578Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:02.580Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:03.835Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:03.838Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:05.292Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:05.294Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:06.311Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:06.313Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:07.683Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:07.685Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:09.036Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:09.038Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:10.886Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:10.888Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:12.062Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:12.062Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:13.300Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:13.301Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:14.754Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:14.756Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:16.831Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:16.833Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:19.902Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:19.903Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:25:25.626Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:25:26.741Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:26.955Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:26.956Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:31.042Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:31.043Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:25:57.403Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:25:57.404Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:26:04.797Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:26:04.802Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:26:08.443Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:26:08.444Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:26:17.613Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:26:18.810Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:26:18.813Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:26:18.960Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:26:20.595Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:26:20.597Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:26:22.107Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:26:22.109Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:26:24.343Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:26:24.347Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:26:29.819Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:26:29.821Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:29:23.477Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:29:24.835Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:29:27.229Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:29:27.231Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:29:31.012Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:29:31.014Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:29:32.351Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:29:32.352Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:32:10.773Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:32:12.090Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:34:27.163Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:34:28.397Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:34:41.125Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:34:41.880Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:34:55.102Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:34:55.807Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:35:10.715Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:35:11.580Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:35:22.215Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:35:23.139Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-08T08:36:07.722Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-08T08:36:08.755Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:36:10.467Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:36:10.469Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:36:13.558Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:36:13.559Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:36:15.292Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:36:15.293Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:36:17.005Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:36:17.007Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:36:18.902Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:36:18.903Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:36:20.574Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:36:20.575Z"}
+{"level":"info","message":"Received GET request to /api/posts/post/67f4d015e0d283636076f792","service":"post-services","timestamp":"2025-04-08T08:36:32.971Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:36:32.972Z"}
+{"level":"info","message":"Received GET request to /api/posts/post/67f4d015e0d283636076f792","service":"post-services","timestamp":"2025-04-08T08:36:36.365Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:36:36.366Z"}
+{"level":"info","message":"Received GET request to /api/posts/posts/67f4d015e0d283636076f792","service":"post-services","timestamp":"2025-04-08T08:36:50.070Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:36:50.071Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-08T08:37:02.444Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:37:02.445Z"}
+{"level":"info","message":"Received GET request to /api/posts/67f4d015e0d283636076f792","service":"post-services","timestamp":"2025-04-08T08:37:24.277Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:37:24.278Z"}
+{"level":"info","message":"Received GET request to /api/posts/67f4d015e0d283636076f792","service":"post-services","timestamp":"2025-04-08T08:37:28.331Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:37:28.332Z"}
+{"level":"info","message":"Received GET request to /api/posts/67f4d015e0d283636076f792","service":"post-services","timestamp":"2025-04-08T08:37:29.469Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:37:29.470Z"}
+{"level":"info","message":"Received GET request to /api/posts/67f4d015e0d283636076f792","service":"post-services","timestamp":"2025-04-08T08:37:30.453Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:37:30.454Z"}
+{"level":"info","message":"Received GET request to /api/posts/67f4d015e0d283636076f792","service":"post-services","timestamp":"2025-04-08T08:37:31.520Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:37:31.520Z"}
+{"level":"info","message":"Received GET request to /api/posts/67f4d015e0d283636076f792","service":"post-services","timestamp":"2025-04-08T08:37:32.551Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:37:32.551Z"}
+{"level":"info","message":"Received GET request to /api/posts/67f4d015e0d283636076f792","service":"post-services","timestamp":"2025-04-08T08:37:38.381Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:37:38.382Z"}
+{"level":"info","message":"Received GET request to /api/posts/67f4d015e0d283636076f792","service":"post-services","timestamp":"2025-04-08T08:37:39.601Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:37:39.602Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/67f4d015e0d283636076f792","service":"post-services","timestamp":"2025-04-08T08:38:28.469Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-08T08:38:28.469Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-12T11:33:13.217Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-12T11:33:16.447Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-services","timestamp":"2025-04-12T11:40:51.256Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-12T11:40:51.258Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-services","timestamp":"2025-04-12T11:40:51.263Z"}
+{"0":"\"","1":"c","10":"i","11":"s","12":" ","13":"r","14":"e","15":"q","16":"u","17":"i","18":"r","19":"e","2":"o","20":"d","3":"n","4":"t","5":"e","6":"n","7":"t","8":"\"","9":" ","level":"warn","message":"Validation error","service":"post-services","timestamp":"2025-04-12T11:40:51.282Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-services","timestamp":"2025-04-12T11:41:07.022Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-12T11:41:07.024Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-services","timestamp":"2025-04-12T11:41:07.026Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"67fa5153201d3a968fc3f6cc","content":"hello im content","createdAt":"2025-04-12T11:41:07.040Z","mediaIds":[],"updatedAt":"2025-04-12T11:41:07.040Z","user":"67ee1726edb9fd0dacec5001"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"67fa5153201d3a968fc3f6cc","content":"hello im content","createdAt":"2025-04-12T11:41:07.040Z","mediaIds":[],"updatedAt":"2025-04-12T11:41:07.040Z","user":"67ee1726edb9fd0dacec5001"},"level":"info","message":"Post created successfully","service":"post-services","timestamp":"2025-04-12T11:41:07.212Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-12T11:42:06.536Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-12T11:42:06.541Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-12T11:42:13.459Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-12T11:42:13.462Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-12T11:42:15.147Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-12T11:42:15.151Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-12T11:42:16.969Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-12T11:42:16.970Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-12T11:42:19.085Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-12T11:42:19.087Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-12T11:42:20.102Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-12T11:42:20.103Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-12T11:42:21.903Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-12T11:42:21.906Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-12T11:42:22.952Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-12T11:42:22.953Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-12T11:42:24.528Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-12T11:42:24.529Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-12T11:42:27.272Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-12T11:42:27.274Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-services","timestamp":"2025-04-12T11:42:50.085Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-services","timestamp":"2025-04-12T11:42:50.090Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-13T17:59:54.752Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-13T17:59:55.866Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-13T18:44:51.486Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-13T18:44:53.191Z"}

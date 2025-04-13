@@ -8,52 +8,60 @@ const postRoutes = require("./routes/post-route");
 const errorHandler = require("./middleware/errorHandler");
 const logger = require("./utils/logger");
 
+// const { connectToRabbitMQ } = require("./utils/rabbitmq");
+
 const app = express();
 const PORT = process.env.PORT || 3002;
 
-// Connect to MongoDB
+//connect to mongodb
 mongoose
   .connect(process.env.MONGODB_URI)
-  .then(() => logger.info("✅ Connected to MongoDB"))
-  .catch((e) => logger.error("❌ Mongo connection error:", e));
+  .then(() => logger.info("Connected to mongodb"))
+  .catch((e) => logger.error("Mongo connection error", e));
 
 const redisClient = new Redis(process.env.REDIS_URL);
 
-// Middleware
+//middleware
 app.use(helmet());
 app.use(cors());
 app.use(express.json());
 
-// Logging middleware
 app.use((req, res, next) => {
-  logger.info(`📩 ${req.method} ${req.url}`);
-  logger.info("📦 Request body:", req.body); // ✅ Log actual body
+  logger.info(`Received ${req.method} request to ${req.url}`);
+  logger.info(`Request body, ${req.body}`);
   next();
 });
 
-// TODO: Implement IP-based rate limiting here
+//*** Homework - implement Ip based rate limiting for sensitive endpoints
 
-// Routes
-app.use("/api/posts", postRoutes);
+//routes -> pass redisclient to routes
+app.use(
+  "/api/posts",
+  (req, res, next) => {
+    req.redisClient = redisClient;
+    next();
+  },
+  postRoutes
+);
 
-// Error Handler
 app.use(errorHandler);
 
-// Start server
 async function startServer() {
   try {
+    // await connectToRabbitMQ();
     app.listen(PORT, () => {
-      logger.info(`🚀 Post service running on port ${PORT}`);
+      logger.info(`Post service running on port ${PORT}`);
     });
   } catch (error) {
-    logger.error("❌ Failed to start server:", error);
+    logger.error("Failed to connect to server", error);
     process.exit(1);
   }
 }
 
 startServer();
 
-// Global unhandled rejection listener
+//unhandled promise rejection
+
 process.on("unhandledRejection", (reason, promise) => {
-  logger.error("💥 Unhandled Rejection at:", promise, "Reason:", reason);
+  logger.error("Unhandled Rejection at", promise, "reason:", reason);
 });

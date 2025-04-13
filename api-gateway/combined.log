@@ -292,3 +292,647 @@
 {"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:22:37.675Z"}
 {"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T07:22:37.686Z"}
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:22:37.677Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:25:22.238Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:25:22.245Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T07:25:31.951Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:25:31.954Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T07:25:32.478Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:25:42.374Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:25:42.377Z"}
+{"level":"info","message":"Response received from Post service: 401","service":"identity-service","timestamp":"2025-04-08T07:25:42.516Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:26:39.306Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:26:39.307Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"identity-service","timestamp":"2025-04-08T07:26:39.455Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:27:44.282Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:27:44.283Z"}
+{"level":"info","message":"Response received from Post service: 500","service":"identity-service","timestamp":"2025-04-08T07:27:44.340Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:28:17.448Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:28:17.450Z"}
+{"level":"info","message":"Response received from Post service: 400","service":"identity-service","timestamp":"2025-04-08T07:28:17.574Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-08T07:28:21.847Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:28:21.847Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"identity-service","timestamp":"2025-04-08T07:28:21.961Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-08T07:35:05.109Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-08T07:35:05.132Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-08T07:35:05.147Z"}
+{"level":"info","message":"Received POST request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:50:39.724Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:50:39.726Z"}
+{"level":"info","message":"Response received from Post service: 404","service":"identity-service","timestamp":"2025-04-08T07:50:39.834Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:50:44.932Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:50:44.933Z"}
+{"level":"info","message":"Response received from Post service: 500","service":"identity-service","timestamp":"2025-04-08T07:50:45.134Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:51:43.849Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:51:43.850Z"}
+{"level":"info","message":"Response received from Post service: 500","service":"identity-service","timestamp":"2025-04-08T07:51:44.122Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:53:06.261Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:53:06.261Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:53:06.539Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:53:12.414Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:53:12.416Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:53:12.505Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:53:13.512Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:53:13.514Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:53:13.598Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:53:14.811Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:53:14.812Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:53:14.876Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:53:15.596Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:53:15.598Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:53:15.685Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:53:16.456Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:53:16.457Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:53:16.537Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:53:17.577Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:53:17.578Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:53:17.655Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:53:19.087Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:53:19.088Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:53:19.153Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:53:51.840Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:53:51.841Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:53:51.928Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:53:53.316Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:53:53.318Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:53:53.402Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:53:54.358Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:53:54.360Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:53:54.433Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:53:55.221Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:53:55.222Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:53:55.284Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:54:41.379Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:54:41.380Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:54:41.480Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:54:42.455Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:54:42.456Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:54:42.519Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:54:43.826Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:54:43.827Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:54:43.891Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:54:45.221Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:54:45.222Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:54:45.286Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T07:54:46.690Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T07:54:46.691Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T07:54:46.764Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:07:52.472Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:07:52.474Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:07:52.837Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:07:56.302Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:07:56.303Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:07:56.371Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:07:58.000Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:07:58.002Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:07:58.089Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:07:59.217Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:07:59.218Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:07:59.281Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:08:00.241Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:08:00.242Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:08:00.303Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:08:01.575Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:08:01.577Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:08:01.654Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:08:04.310Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:08:04.311Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:08:04.384Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:08:07.396Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:08:07.398Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:08:07.475Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:08:08.829Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:08:08.829Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:08:08.892Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:08:38.886Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:08:38.888Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:08:38.965Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:08:40.181Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:08:40.181Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:08:40.245Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:08:41.082Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:08:41.082Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:08:41.145Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:09:45.668Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:09:45.669Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:09:45.731Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:09:47.168Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:09:47.169Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:09:47.230Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:09:48.466Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:09:48.467Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:09:48.551Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:09:56.362Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:09:56.363Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:09:56.428Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:12:41.239Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:12:41.240Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-08T08:12:41.247Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:12:43.272Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:12:43.273Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:12:43.370Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:12:44.857Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:12:44.858Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:12:44.940Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:12:46.386Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:12:46.388Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:12:46.467Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:12:48.829Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:12:48.830Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:12:48.897Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:14:23.334Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:14:23.335Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:14:23.573Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:16:20.039Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:16:20.042Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:16:20.212Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:16:22.604Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:16:22.606Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:16:22.691Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:16:24.745Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:16:24.747Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:16:24.824Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:16:25.818Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:16:25.820Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:16:25.896Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:16:27.037Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:16:27.039Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:16:27.109Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:16:27.762Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:16:27.764Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:16:27.842Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:16:28.888Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:16:28.889Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:16:28.949Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:16:30.018Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:16:30.026Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:16:30.109Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:18:44.360Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:18:44.361Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:18:44.437Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:18:45.583Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:18:45.584Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:18:45.644Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:18:47.019Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:18:47.020Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:18:47.079Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:18:49.859Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:18:49.860Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:18:49.921Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:19:05.016Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"api-gateway","timestamp":"2025-04-08T08:19:05.021Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-08T08:19:05.017Z"}
+{"level":"info","message":"Received GET request to /service-worker.js","service":"identity-service","timestamp":"2025-04-08T08:19:07.662Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-08T08:19:07.664Z"}
+{"level":"info","message":"Received GET request to /service-worker.js","service":"identity-service","timestamp":"2025-04-08T08:19:07.739Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-08T08:19:07.740Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:19:08.389Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"api-gateway","timestamp":"2025-04-08T08:19:08.391Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-08T08:19:08.390Z"}
+{"level":"info","message":"Received GET request to /favicon.ico","service":"identity-service","timestamp":"2025-04-08T08:19:08.611Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-08T08:19:08.612Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:19:08.805Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"api-gateway","timestamp":"2025-04-08T08:19:08.809Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-08T08:19:08.807Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:19:09.141Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"api-gateway","timestamp":"2025-04-08T08:19:09.143Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-08T08:19:09.142Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:19:09.288Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"api-gateway","timestamp":"2025-04-08T08:19:09.289Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-08T08:19:09.289Z"}
+{"level":"info","message":"Received GET request to /service-worker.js","service":"identity-service","timestamp":"2025-04-08T08:19:11.281Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-08T08:19:11.281Z"}
+{"level":"info","message":"Received GET request to /service-worker.js","service":"identity-service","timestamp":"2025-04-08T08:19:11.337Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-08T08:19:11.338Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:20:52.010Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:20:52.012Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:20:52.706Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:20:55.573Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:20:55.574Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:20:55.662Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:20:57.329Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:20:57.330Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:20:57.397Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:21:07.395Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:21:07.396Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:21:07.468Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:21:13.256Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:21:13.258Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:21:13.343Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:21:14.381Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:21:14.381Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:21:14.470Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:21:16.039Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:21:16.040Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:21:16.120Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:23:58.366Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:23:58.367Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:23:58.480Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:23:59.657Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:23:59.658Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:23:59.727Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:24:00.921Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:24:00.922Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:24:00.994Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:24:02.181Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:24:02.183Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:24:02.275Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:24:03.170Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:24:03.171Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:24:03.238Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:24:04.897Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:24:04.898Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:24:04.964Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:24:16.403Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:24:16.405Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:24:16.593Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:24:21.885Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:24:21.886Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:24:21.951Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:24:25.923Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:24:25.925Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:24:26.001Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:24:26.958Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:24:26.959Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:24:27.018Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:24:28.293Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:24:28.295Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:24:28.372Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:24:59.339Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:24:59.340Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:24:59.646Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:01.006Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:01.007Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:01.154Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:02.561Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:02.564Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:02.705Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:03.816Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:03.819Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:03.968Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:05.275Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:05.277Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:05.415Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:06.294Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:06.297Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:06.433Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:07.674Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:07.675Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:07.794Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:09.019Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:09.021Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:09.157Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:10.864Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:10.865Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:11.012Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:12.052Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:12.053Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:12.176Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:13.290Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:13.291Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:13.421Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:14.740Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:14.741Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:14.885Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:16.806Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:16.808Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:16.947Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:19.887Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:19.888Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:20.023Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:26.906Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:26.907Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:27.410Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:31.041Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:31.041Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:31.151Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:32.385Z"}
+{"error":"jwt expired","level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T08:25:32.396Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:32.386Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:34.940Z"}
+{"error":"jwt expired","level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T08:25:34.950Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:34.942Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:36.090Z"}
+{"error":"jwt expired","level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T08:25:36.093Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:36.091Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:38.051Z"}
+{"error":"jwt expired","level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-04-08T08:25:38.070Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:38.067Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-08T08:25:45.304Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:45.306Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:45.652Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:25:57.398Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:25:57.399Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:25:57.512Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:26:04.791Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:26:04.793Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:26:04.931Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:26:08.437Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:26:08.439Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:26:08.574Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:26:18.726Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:26:18.728Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:26:19.193Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:26:20.587Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:26:20.589Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:26:20.663Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:26:22.092Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:26:22.095Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:26:22.175Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:26:24.332Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:26:24.334Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:26:24.412Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:26:29.817Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:26:29.818Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:26:29.878Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:29:27.144Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:29:27.147Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:29:27.292Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:29:31.006Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:29:31.007Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:29:31.068Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:29:32.344Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:29:32.345Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:29:32.410Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:34:15.215Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:34:15.216Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-08T08:34:15.219Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:36:10.440Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:36:10.441Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:36:10.703Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:36:13.555Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:36:13.557Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:36:13.613Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:36:15.290Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:36:15.291Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:36:15.347Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:36:17.002Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:36:17.003Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:36:17.060Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:36:18.899Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:36:18.900Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:36:18.957Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:36:20.571Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:36:20.572Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:36:20.629Z"}
+{"level":"info","message":"Received GET request to /v1/posts/post/67f4d015e0d283636076f792","service":"identity-service","timestamp":"2025-04-08T08:36:32.968Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:36:32.970Z"}
+{"level":"info","message":"Response received from Post service: 404","service":"identity-service","timestamp":"2025-04-08T08:36:32.979Z"}
+{"level":"info","message":"Received GET request to /v1/posts/post/67f4d015e0d283636076f792","service":"identity-service","timestamp":"2025-04-08T08:36:36.362Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:36:36.363Z"}
+{"level":"info","message":"Response received from Post service: 404","service":"identity-service","timestamp":"2025-04-08T08:36:36.372Z"}
+{"level":"info","message":"Received GET request to /v1/posts/posts/67f4d015e0d283636076f792","service":"identity-service","timestamp":"2025-04-08T08:36:50.067Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:36:50.068Z"}
+{"level":"info","message":"Response received from Post service: 404","service":"identity-service","timestamp":"2025-04-08T08:36:50.076Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-08T08:37:02.442Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:37:02.443Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:37:02.502Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67f4d015e0d283636076f792","service":"identity-service","timestamp":"2025-04-08T08:37:24.279Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:37:24.279Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:37:24.447Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67f4d015e0d283636076f792","service":"identity-service","timestamp":"2025-04-08T08:37:28.331Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:37:28.332Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:37:28.493Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67f4d015e0d283636076f792","service":"identity-service","timestamp":"2025-04-08T08:37:29.470Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:37:29.471Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:37:29.626Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67f4d015e0d283636076f792","service":"identity-service","timestamp":"2025-04-08T08:37:30.449Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:37:30.450Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:37:30.614Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67f4d015e0d283636076f792","service":"identity-service","timestamp":"2025-04-08T08:37:31.520Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:37:31.521Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:37:31.682Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67f4d015e0d283636076f792","service":"identity-service","timestamp":"2025-04-08T08:37:32.551Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:37:32.552Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:37:32.710Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67f4d015e0d283636076f792","service":"identity-service","timestamp":"2025-04-08T08:37:38.381Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:37:38.382Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:37:38.542Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67f4d015e0d283636076f792","service":"identity-service","timestamp":"2025-04-08T08:37:39.601Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:37:39.602Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:37:39.762Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/67f4d015e0d283636076f792","service":"identity-service","timestamp":"2025-04-08T08:38:28.463Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-08T08:38:28.464Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-08T08:38:28.695Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-12T11:31:45.316Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-12T11:31:45.321Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-12T11:31:45.323Z"}
+{"level":"info","message":"Received GET request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-12T11:39:03.438Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:39:03.439Z"}
+{"level":"info","message":"Response received from Identity service: 404","service":"identity-service","timestamp":"2025-04-12T11:39:03.574Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-12T11:39:14.515Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:39:14.517Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"identity-service","timestamp":"2025-04-12T11:39:14.664Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-12T11:39:44.913Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-12T11:39:44.915Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-12T11:39:45.289Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-12T11:40:06.775Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-12T11:40:06.777Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-12T11:40:07.063Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-12T11:40:51.152Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-12T11:40:51.153Z"}
+{"level":"info","message":"Response received from Post service: 400","service":"identity-service","timestamp":"2025-04-12T11:40:51.291Z"}
+{"level":"error","message":"SyntaxError: Expected double-quoted property name in JSON at position 36 (line 4 column 1)\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\api-gateway\\node_modules\\body-parser\\lib\\types\\json.js:77:19)\n    at C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\api-gateway\\node_modules\\body-parser\\lib\\read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\api-gateway\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\api-gateway\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\api-gateway\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","service":"identity-service","timestamp":"2025-04-12T11:41:04.089Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"identity-service","timestamp":"2025-04-12T11:41:07.014Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-12T11:41:07.015Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"identity-service","timestamp":"2025-04-12T11:41:07.225Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-12T11:41:55.412Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"api-gateway","timestamp":"2025-04-12T11:41:55.418Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:41:55.414Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-12T11:42:06.510Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:42:06.512Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-12T11:42:06.802Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-12T11:42:13.434Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:42:13.436Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-12T11:42:13.510Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-12T11:42:15.115Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:42:15.118Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-12T11:42:15.202Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-12T11:42:16.951Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:42:16.952Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-12T11:42:17.294Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-12T11:42:19.059Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:42:19.061Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-12T11:42:19.135Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-12T11:42:20.086Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:42:20.087Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-12T11:42:20.148Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-12T11:42:21.869Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:42:21.871Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-12T11:42:21.961Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-12T11:42:22.930Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:42:22.932Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-12T11:42:23.002Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-12T11:42:24.511Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:42:24.512Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-12T11:42:24.574Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-12T11:42:27.254Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:42:27.256Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-12T11:42:27.332Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"identity-service","timestamp":"2025-04-12T11:42:50.066Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-12T11:42:50.068Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"identity-service","timestamp":"2025-04-12T11:42:50.146Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-12T15:14:43.980Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-12T15:14:43.985Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-12T15:14:43.986Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-13T17:59:28.380Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-13T17:59:28.389Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-13T17:59:28.391Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-13T18:42:10.728Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-13T18:42:10.733Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-13T18:42:10.734Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-13T18:43:27.585Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-13T18:43:27.592Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-13T18:43:27.593Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-13T18:44:10.380Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-13T18:44:10.392Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-13T18:44:10.394Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"identity-service","timestamp":"2025-04-13T18:44:10.396Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-13T18:47:58.614Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-13T18:47:58.618Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-13T18:47:59.267Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T18:48:22.158Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"api-gateway","timestamp":"2025-04-13T18:48:22.160Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-13T18:48:22.159Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T18:48:42.222Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T18:48:42.224Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"identity-service","timestamp":"2025-04-13T18:48:42.234Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T18:48:58.182Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T18:48:58.183Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:48:58.188Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T18:52:49.160Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T18:52:49.160Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:52:49.166Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T18:54:53.244Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T18:54:53.246Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:54:53.258Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T18:55:18.670Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T18:55:18.670Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:55:18.675Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T18:55:55.732Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T18:55:55.732Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:55:55.737Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T18:56:50.429Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T18:56:50.429Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:56:50.433Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T18:57:41.761Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T18:57:41.762Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:57:41.773Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T18:59:53.340Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T18:59:53.341Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:59:53.348Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-13T19:00:12.611Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:00:12.612Z"}
+{"level":"error","message":"Proxy error: request entity too large","service":"identity-service","timestamp":"2025-04-13T19:00:12.615Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-13T19:00:48.761Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-13T19:00:48.761Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-13T19:00:49.152Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:01:28.160Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:01:28.162Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"identity-service","timestamp":"2025-04-13T19:01:28.169Z"}
+{"level":"info","message":"🚀 API Gateway running on port 3000","service":"identity-service","timestamp":"2025-04-13T19:03:03.788Z"}
+{"level":"info","message":"🔗 Identity service → http://localhost:3001","service":"identity-service","timestamp":"2025-04-13T19:03:03.794Z"}
+{"level":"info","message":"🔗 Post service → http://localhost:3002","service":"identity-service","timestamp":"2025-04-13T19:03:03.795Z"}
+{"level":"info","message":"🔗 Media service → http://localhost:3003","service":"identity-service","timestamp":"2025-04-13T19:03:03.795Z"}
+{"level":"info","message":"📥 POST /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:03:13.135Z"}
+{"level":"info","message":"📦 Body: undefined","service":"identity-service","timestamp":"2025-04-13T19:03:13.138Z"}
+{"level":"error","message":"❌ Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:03:13.208Z"}
+{"level":"info","message":"📥 POST /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:04:57.377Z"}
+{"level":"error","message":"❌ Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:04:57.397Z"}
+{"level":"info","message":"📥 POST /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:06:35.824Z"}
+{"level":"error","message":"❌ Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:06:35.832Z"}
+{"level":"info","message":"📥 POST /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:06:44.068Z"}
+{"level":"error","message":"❌ Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:06:44.072Z"}
+{"level":"info","message":"📥 POST /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:07:00.070Z"}
+{"level":"error","message":"❌ Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:07:00.078Z"}
+{"level":"info","message":"📥 POST /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:07:02.092Z"}
+{"level":"error","message":"❌ Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:07:02.098Z"}
+{"level":"info","message":"📥 POST /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:07:21.297Z"}
+{"level":"info","message":"✅ Media service responded: 404","service":"identity-service","timestamp":"2025-04-13T19:07:21.366Z"}
+{"level":"info","message":"📥 POST /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:07:52.258Z"}
+{"level":"info","message":"✅ Media service responded: 404","service":"identity-service","timestamp":"2025-04-13T19:07:52.335Z"}
+{"level":"info","message":"📥 POST /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:08:13.914Z"}
+{"level":"info","message":"✅ Media service responded: 404","service":"identity-service","timestamp":"2025-04-13T19:08:13.930Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-13T19:08:39.465Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-13T19:08:39.470Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-13T19:08:39.472Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"identity-service","timestamp":"2025-04-13T19:08:39.472Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:08:44.034Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:08:44.035Z"}
+{"level":"info","message":"Response received from media service: 404","service":"identity-service","timestamp":"2025-04-13T19:08:44.070Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:09:14.138Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:09:14.139Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"identity-service","timestamp":"2025-04-13T19:09:14.143Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:09:21.215Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:09:21.216Z"}
+{"level":"info","message":"Response received from media service: 404","service":"identity-service","timestamp":"2025-04-13T19:09:21.233Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-13T19:09:50.622Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-13T19:09:50.623Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-13T19:09:51.013Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:10:06.704Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:10:06.705Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"identity-service","timestamp":"2025-04-13T19:10:06.706Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-13T19:10:24.227Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-13T19:10:24.233Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-13T19:10:24.234Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"identity-service","timestamp":"2025-04-13T19:10:24.235Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:11:42.877Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:11:42.879Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"identity-service","timestamp":"2025-04-13T19:11:42.885Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-13T19:12:39.367Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-13T19:12:39.379Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-13T19:12:39.392Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"identity-service","timestamp":"2025-04-13T19:12:39.404Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:12:42.351Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:12:42.355Z"}
+{"level":"info","message":"Response received from media service: 404","service":"identity-service","timestamp":"2025-04-13T19:12:42.494Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:14:22.998Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:14:23.001Z"}
+{"level":"info","message":"Response received from media service: 404","service":"identity-service","timestamp":"2025-04-13T19:14:23.042Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:15:11.921Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:15:11.922Z"}
+{"level":"info","message":"Response received from media service: 404","service":"identity-service","timestamp":"2025-04-13T19:15:11.934Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:16:23.052Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:16:23.053Z"}
+{"level":"info","message":"Response received from media service: 404","service":"identity-service","timestamp":"2025-04-13T19:16:23.080Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:16:28.101Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:16:28.102Z"}
+{"level":"info","message":"Response received from media service: 404","service":"identity-service","timestamp":"2025-04-13T19:16:28.124Z"}
+{"level":"info","message":"Received POST request to /v1/media/uploadw","service":"identity-service","timestamp":"2025-04-13T19:16:32.503Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:16:32.504Z"}
+{"level":"info","message":"Response received from media service: 404","service":"identity-service","timestamp":"2025-04-13T19:16:32.513Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-13T19:18:00.761Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-13T19:18:00.772Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-13T19:18:00.779Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"identity-service","timestamp":"2025-04-13T19:18:00.781Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:18:04.774Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:18:04.777Z"}
+{"level":"info","message":"Response received from media service: 404","service":"identity-service","timestamp":"2025-04-13T19:18:04.883Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:18:20.066Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:18:20.068Z"}
+{"level":"info","message":"Response received from media service: 404","service":"identity-service","timestamp":"2025-04-13T19:18:20.090Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:20:26.292Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:20:26.295Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:20:26.407Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:22:01.160Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:22:01.161Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:22:01.229Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:23:34.308Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:23:34.309Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:23:34.316Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:23:43.704Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:23:43.705Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:23:43.763Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:25:26.867Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:25:26.867Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:25:26.931Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:26:57.591Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:26:57.594Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:26:57.794Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:26:59.715Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:26:59.716Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:26:59.771Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:27:01.657Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:27:01.659Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:27:01.716Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:27:31.353Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:27:31.354Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:27:31.389Z"}

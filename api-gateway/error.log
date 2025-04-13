@@ -1,2 +1,26 @@
 {"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-03T05:42:33.861Z"}
 {"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-03T05:42:53.365Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-08T08:12:41.247Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-08T08:34:15.219Z"}
+{"level":"error","message":"SyntaxError: Expected double-quoted property name in JSON at position 36 (line 4 column 1)\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\api-gateway\\node_modules\\body-parser\\lib\\types\\json.js:77:19)\n    at C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\api-gateway\\node_modules\\body-parser\\lib\\read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\api-gateway\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\api-gateway\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\api-gateway\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","service":"identity-service","timestamp":"2025-04-12T11:41:04.089Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"identity-service","timestamp":"2025-04-13T18:48:42.234Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:48:58.188Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:52:49.166Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:54:53.258Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:55:18.675Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:55:55.737Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:56:50.433Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:57:41.773Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T18:59:53.348Z"}
+{"level":"error","message":"Proxy error: request entity too large","service":"identity-service","timestamp":"2025-04-13T19:00:12.615Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"identity-service","timestamp":"2025-04-13T19:01:28.169Z"}
+{"level":"error","message":"❌ Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:03:13.208Z"}
+{"level":"error","message":"❌ Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:04:57.397Z"}
+{"level":"error","message":"❌ Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:06:35.832Z"}
+{"level":"error","message":"❌ Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:06:44.072Z"}
+{"level":"error","message":"❌ Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:07:00.078Z"}
+{"level":"error","message":"❌ Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:07:02.098Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"identity-service","timestamp":"2025-04-13T19:09:14.143Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"identity-service","timestamp":"2025-04-13T19:10:06.706Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"identity-service","timestamp":"2025-04-13T19:11:42.885Z"}
+{"level":"error","message":"Proxy error: ","service":"identity-service","timestamp":"2025-04-13T19:23:34.316Z"}

@@ -203,3 +203,41 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T07:22:27.597Z"}
 {"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T07:22:27.603Z"}
 {"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T07:22:27.655Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-04-08T07:25:07.865Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-08T07:25:09.207Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T07:25:32.036Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T07:25:32.037Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T07:25:32.103Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-08T08:25:45.340Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-08T08:25:45.348Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-08T08:25:45.414Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-04-12T11:32:19.962Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-12T11:32:21.205Z"}
+{"level":"info","message":"Received GET request to /api/auth/login","service":"identity-service","timestamp":"2025-04-12T11:39:03.509Z"}
+{"level":"info","message":"Request body: {}","service":"identity-service","timestamp":"2025-04-12T11:39:03.510Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-12T11:39:14.536Z"}
+{"level":"info","message":"Request body: {}","service":"identity-service","timestamp":"2025-04-12T11:39:14.539Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-12T11:39:14.594Z"}
+{"0":"\"","1":"e","10":" ","11":"r","12":"e","13":"q","14":"u","15":"i","16":"r","17":"e","18":"d","2":"m","3":"a","4":"i","5":"l","6":"\"","7":" ","8":"i","9":"s","level":"warn","message":"validation error","service":"identity-service","timestamp":"2025-04-12T11:39:14.627Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-12T11:39:44.922Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-12T11:39:44.925Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-12T11:39:44.974Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-12T11:40:06.793Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-12T11:40:06.794Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-12T11:40:06.845Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-04-12T15:14:52.673Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-12T15:14:54.153Z"}
+{"code":"ECONNRESET","errno":-4077,"level":"error","message":"Redis Client Error: read ECONNRESET","service":"identity-service","stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)","syscall":"read","timestamp":"2025-04-12T17:14:53.176Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-04-12T17:51:28.188Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-12T17:51:29.933Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-04-13T17:59:37.513Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-13T17:59:39.141Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-13T18:47:58.761Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-13T18:47:58.765Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-13T18:47:58.843Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-13T19:00:48.772Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-13T19:00:48.774Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-13T19:00:48.831Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-13T19:09:50.622Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-13T19:09:50.625Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-13T19:09:50.684Z"}
