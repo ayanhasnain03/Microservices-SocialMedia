@@ -1,14 +1,15 @@
 const Media = require("../models/Media");
-const uploadMediaToCloudinary = require("../utils/cloudinary");
-
+const { uploadMediaToCloudinary } = require("../utils/cloudinary");
 const logger = require("../utils/logger");
 
+/**
+ * Upload media file to Cloudinary and save details to the database
+ */
 const uploadMedia = async (req, res) => {
   logger.info("Starting media upload");
 
   try {
-    console.log(req.file, "req.filereq.file");
-
+    // Check if file is provided in the request
     if (!req.file) {
       logger.error("No file found. Please add a file and try again!");
       return res.status(400).json({
@@ -17,20 +18,20 @@ const uploadMedia = async (req, res) => {
       });
     }
 
+    // Destructure file data from request
     const { originalname, mimetype, buffer } = req.file;
-    const userId = req.user.userId;
+    const userId = req.user.userId; // Assuming req.user is populated by authentication middleware
 
     logger.info(`File details: name=${originalname}, type=${mimetype}`);
     logger.info("Uploading to Cloudinary starting...");
 
-    const cloudinaryUploadResult = await uploadMediaToCloudinary(
-      buffer,
-      originalname
-    );
+    // Upload to Cloudinary
+    const cloudinaryUploadResult = await uploadMediaToCloudinary(req.file);
     logger.info(
-      `Cloudinary upload successful. Public Id: - ${cloudinaryUploadResult.public_id}`
+      `Cloudinary upload successful. Public ID: ${cloudinaryUploadResult.public_id}`
     );
 
+    // Create media document in the database
     const newlyCreatedMedia = new Media({
       publicId: cloudinaryUploadResult.public_id,
       originalName: originalname,
@@ -39,8 +40,10 @@ const uploadMedia = async (req, res) => {
       userId,
     });
 
+    // Save media details to the database
     await newlyCreatedMedia.save();
 
+    // Respond with the uploaded media details
     res.status(201).json({
       success: true,
       mediaId: newlyCreatedMedia._id,
@@ -48,7 +51,7 @@ const uploadMedia = async (req, res) => {
       message: "Media uploaded successfully",
     });
   } catch (error) {
-    logger.error("Error creating media", error);
+    logger.error("Error during media upload", error);
     res.status(500).json({
       success: false,
       message: "Error creating media",
@@ -56,14 +59,18 @@ const uploadMedia = async (req, res) => {
   }
 };
 
+/**
+ * Get all media files uploaded by a specific user
+ */
 const getAllMedias = async (req, res) => {
   try {
+    // Fetch media by userId from the database
     const result = await Media.find({ userId: req.user.userId });
 
     if (result.length === 0) {
       return res.status(404).json({
         success: false,
-        message: "Cannot find any media for this user",
+        message: "No media found for this user",
       });
     }
 
@@ -71,8 +78,8 @@ const getAllMedias = async (req, res) => {
       success: true,
       data: result,
     });
-  } catch (e) {
-    logger.error("Error fetching medias", e);
+  } catch (error) {
+    logger.error("Error fetching medias", error);
     res.status(500).json({
       success: false,
       message: "Error fetching medias",

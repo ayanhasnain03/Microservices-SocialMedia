@@ -241,3 +241,16 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-13T19:09:50.622Z"}
 {"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-13T19:09:50.625Z"}
 {"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-13T19:09:50.684Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-04-21T22:40:03.281Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-04-21T22:40:04.362Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-21T23:13:47.754Z"}
+{"level":"info","message":"Request body: {}","service":"identity-service","timestamp":"2025-04-21T23:13:47.755Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-21T23:13:47.811Z"}
+{"0":"\"","1":"e","10":" ","11":"r","12":"e","13":"q","14":"u","15":"i","16":"r","17":"e","18":"d","2":"m","3":"a","4":"i","5":"l","6":"\"","7":" ","8":"i","9":"s","level":"warn","message":"validation error","service":"identity-service","timestamp":"2025-04-21T23:13:47.822Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-21T23:14:17.122Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"9798246742\"\n}","service":"identity-service","timestamp":"2025-04-21T23:14:17.124Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-21T23:14:17.180Z"}
+{"level":"warn","message":"invalid email and password","service":"identity-service","timestamp":"2025-04-21T23:14:17.418Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-04-21T23:14:24.580Z"}
+{"level":"info","message":"Request body: {\n  \"email\": \"ayanhasnain2572006@gmail.com\",\n  \"password\": \"8797131193\"\n}","service":"identity-service","timestamp":"2025-04-21T23:14:24.581Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-04-21T23:14:24.634Z"}

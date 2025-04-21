@@ -1,12 +1,18 @@
 const cloudinary = require("cloudinary").v2;
 const logger = require("./logger");
 
+// Cloudinary config
 cloudinary.config({
   cloud_name: process.env.CLOUD_NAME,
   api_key: process.env.API_KEY,
   api_secret: process.env.API_SECRET,
 });
 
+/**
+ * Uploads a media file to Cloudinary
+ * @param {Object} file - File object from multer (with buffer, originalname)
+ * @returns {Promise<Object>} Cloudinary upload result
+ */
 const uploadMediaToCloudinary = (file) => {
   return new Promise((resolve, reject) => {
     if (!file || !file.buffer) {
@@ -15,44 +21,49 @@ const uploadMediaToCloudinary = (file) => {
       return reject(new Error(errorMessage));
     }
 
-    // Ensure the buffer is a proper Node.js Buffer if it's an ArrayBuffer
-    const fileBuffer = Buffer.isBuffer(file.buffer)
-      ? file.buffer
-      : Buffer.from(file.buffer);
-
     const uploadStream = cloudinary.uploader.upload_stream(
       {
         resource_type: "auto",
-        public_id: `media/${file.originalname}`,
+        public_id: `media/${Date.now()}-${file.originalname}`,
       },
       (error, result) => {
         if (error) {
-          logger.error("Error while uploading media to Cloudinary", {
+          logger.error("Cloudinary upload error", {
             error: error.message,
-            stack: error.stack,
             fileName: file.originalname,
           });
-          reject(new Error(`Cloudinary upload failed: ${error.message}`));
-        } else {
-          logger.info(
-            `File uploaded to Cloudinary successfully. Public ID: ${result.public_id}`
-          );
-          resolve(result);
+          return reject(new Error("Cloudinary upload failed."));
         }
+
+        logger.info(`File uploaded successfully: ${result.public_id}`);
+        resolve(result);
       }
     );
 
-    uploadStream.on("error", (streamError) => {
-      logger.error("Stream error while uploading media to Cloudinary", {
-        error: streamError.message,
-        fileName: file.originalname,
-      });
-      reject(new Error(`Stream upload failed: ${streamError.message}`));
-    });
-
-    // Pass the correct buffer to the upload stream
-    uploadStream.end(fileBuffer);
+    uploadStream.end(file.buffer);
   });
 };
 
-module.exports = uploadMediaToCloudinary;
+/**
+ * Deletes a file from Cloudinary by its public ID
+ * @param {string} publicId - Cloudinary public_id
+ * @returns {Promise<Object>} Cloudinary destroy result
+ */
+const deleteMediaFromCloudinary = async (publicId) => {
+  try {
+    const result = await cloudinary.uploader.destroy(publicId);
+    logger.info("Media deleted successfully from cloud storage", { publicId });
+    return result;
+  } catch (error) {
+    logger.error("Error deleting media from Cloudinary", {
+      publicId,
+      error: error.message,
+    });
+    throw error;
+  }
+};
+
+module.exports = {
+  uploadMediaToCloudinary,
+  deleteMediaFromCloudinary,
+};

@@ -428,3 +428,6 @@
 {"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-21T22:56:00.214Z"}
 {"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-21T22:56:09.193Z"}
 {"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-21T22:56:10.286Z"}
+{"level":"info","message":"Connected My Rabbitmq","service":"post-services","timestamp":"2025-04-21T22:58:18.638Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-services","timestamp":"2025-04-21T22:58:18.646Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-services","timestamp":"2025-04-21T22:58:19.615Z"}

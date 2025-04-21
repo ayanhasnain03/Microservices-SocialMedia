@@ -972,3 +972,33 @@
 {"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-21T22:39:44.480Z"}
 {"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-21T22:39:44.482Z"}
 {"level":"info","message":"Media service is running on port http://localhost:3003","service":"identity-service","timestamp":"2025-04-21T22:39:44.484Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-21T22:41:15.891Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-21T22:41:15.896Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-21T22:41:15.896Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"identity-service","timestamp":"2025-04-21T22:41:15.897Z"}
+{"level":"info","message":"Received POST request to /v1/login","service":"identity-service","timestamp":"2025-04-21T23:13:22.723Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-21T23:13:22.724Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-21T23:13:47.690Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-21T23:13:47.690Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"identity-service","timestamp":"2025-04-21T23:13:47.831Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-21T23:14:17.129Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-21T23:14:17.130Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"identity-service","timestamp":"2025-04-21T23:14:17.433Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2025-04-21T23:14:24.587Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-21T23:14:24.588Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"identity-service","timestamp":"2025-04-21T23:14:24.922Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"identity-service","timestamp":"2025-04-21T23:15:06.139Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"api-gateway","timestamp":"2025-04-21T23:15:06.142Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-21T23:15:06.140Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"identity-service","timestamp":"2025-04-21T23:15:24.095Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-04-21T23:15:24.096Z"}
+{"level":"info","message":"Response received from media service: 200","service":"identity-service","timestamp":"2025-04-21T23:15:24.187Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-21T23:17:17.654Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-21T23:17:17.655Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-21T23:17:17.692Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-21T23:18:05.888Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-21T23:18:05.889Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-21T23:18:05.928Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-21T23:18:24.538Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-21T23:18:24.539Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-service","timestamp":"2025-04-21T23:18:27.301Z"}
