@@ -197,3 +197,12 @@
 {"error":"Invalid api_key 898719357455313,","level":"error","message":"Error while uploading media to Cloudinary","service":"media-services","timestamp":"2025-04-13T19:29:21.351Z"}
 {"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","exception":{"http_code":401,"message":"Invalid api_key 898719357455313,","name":"Error"},"http_code":401,"level":"error","message":"Invalid api_key 898719357455313,","name":"Error","service":"media-services","timestamp":"2025-04-13T19:29:21.355Z"}
 {"level":"error","message":"Error creating media Cloudinary upload failed: Invalid api_key 898719357455313,","service":"media-services","stack":"Error: Cloudinary upload failed: Invalid api_key 898719357455313,\n    at C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\media-service\\src\\utils\\cloudinary.js:35:18\n    at C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\media-service\\node_modules\\cloudinary\\lib\\utils\\index.js:1394:14\n    at IncomingMessage.<anonymous> (C:\\Users\\AYAN HASNAIN\\Desktop\\2025\\Microservices\\media-service\\node_modules\\cloudinary\\lib\\uploader.js:514:9)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2025-04-13T19:29:21.357Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-services","timestamp":"2025-04-13T19:31:11.669Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-services","timestamp":"2025-04-13T19:31:13.172Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-services","timestamp":"2025-04-13T19:31:16.291Z"}
+{"level":"info","message":"Request body, undefined","service":"media-services","timestamp":"2025-04-13T19:31:16.293Z"}
+{"level":"info","message":"Starting media upload","service":"media-services","timestamp":"2025-04-13T19:31:16.326Z"}
+{"level":"info","message":"File details: name=Screenshot (703).png, type=image/png","service":"media-services","timestamp":"2025-04-13T19:31:16.335Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-services","timestamp":"2025-04-13T19:31:16.338Z"}
+{"level":"info","message":"File uploaded to Cloudinary successfully. Public ID: media/undefined","service":"media-services","timestamp":"2025-04-13T19:31:19.113Z"}
+{"level":"info","message":"Cloudinary upload successful. Public Id: - media/undefined","service":"media-services","timestamp":"2025-04-13T19:31:19.117Z"}

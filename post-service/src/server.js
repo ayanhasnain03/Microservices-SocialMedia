@@ -7,6 +7,7 @@ const helmet = require("helmet");
 const postRoutes = require("./routes/post-route");
 const errorHandler = require("./middleware/errorHandler");
 const logger = require("./utils/logger");
+const { connectToRabbitMQ } = require("./utils/rabbitmq");
 
 // const { connectToRabbitMQ } = require("./utils/rabbitmq");
 
@@ -48,7 +49,7 @@ app.use(errorHandler);
 
 async function startServer() {
   try {
-    // await connectToRabbitMQ();
+    await connectToRabbitMQ();
     app.listen(PORT, () => {
       logger.info(`Post service running on port ${PORT}`);
     });

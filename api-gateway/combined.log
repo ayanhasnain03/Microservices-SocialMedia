@@ -936,3 +936,39 @@
 {"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:27:31.353Z"}
 {"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:27:31.354Z"}
 {"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:27:31.389Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-13T19:27:45.344Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-13T19:27:45.349Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-13T19:27:45.351Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"identity-service","timestamp":"2025-04-13T19:27:45.352Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:27:48.277Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:27:48.279Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:27:48.361Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:27:50.168Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:27:50.169Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:27:50.196Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:27:51.404Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:27:51.405Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:27:51.454Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:27:53.638Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:27:53.640Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:27:53.712Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:28:22.821Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:28:22.822Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:28:22.927Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:28:24.696Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:28:24.697Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:28:24.730Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:29:18.492Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:29:18.494Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-13T19:29:21.367Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-13T19:31:16.252Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-13T19:31:16.254Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-service","timestamp":"2025-04-13T19:31:19.236Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-13T19:58:46.587Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-13T19:58:46.609Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-13T19:58:46.615Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"identity-service","timestamp":"2025-04-13T19:58:46.631Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2025-04-21T22:39:44.472Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"identity-service","timestamp":"2025-04-21T22:39:44.480Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-service","timestamp":"2025-04-21T22:39:44.482Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"identity-service","timestamp":"2025-04-21T22:39:44.484Z"}
