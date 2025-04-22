@@ -1002,3 +1002,18 @@
 {"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-21T23:18:24.538Z"}
 {"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-21T23:18:24.539Z"}
 {"level":"info","message":"Response received from media service: 201","service":"identity-service","timestamp":"2025-04-21T23:18:27.301Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-21T23:21:37.919Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-21T23:21:37.920Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-21T23:21:37.969Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-21T23:22:19.388Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-21T23:22:19.389Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-21T23:22:19.433Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-21T23:22:21.414Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-21T23:22:21.415Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-service","timestamp":"2025-04-21T23:22:21.435Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-21T23:23:08.383Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-21T23:23:08.384Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-service","timestamp":"2025-04-21T23:23:10.904Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"identity-service","timestamp":"2025-04-21T23:23:50.250Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-service","timestamp":"2025-04-21T23:23:50.251Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-service","timestamp":"2025-04-21T23:24:02.143Z"}
